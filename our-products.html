@@ -9,7 +9,7 @@
 
     <link media="all" href="https://jevelin.shufflehound.com/corporate-accounting/wp-content/cache/autoptimize/32/css/autoptimize_0c3706836102546eb4f7ff9cde1ae1e7.css" rel="stylesheet" />
     <link media="only screen and (max-width: 768px)" href="https://jevelin.shufflehound.com/corporate-accounting/wp-content/cache/autoptimize/32/css/autoptimize_541e2ced151704f4ff1844c6de47ec02.css" rel="stylesheet" />
-    <title>Solvacrm - Your total partner within ERP, CRM and HRM</title>
+    <title>Integrations | SolvaCRM</title>
     <meta name='robots' content='max-image-preview:large' />
 
     <link rel='dns-prefetch' href='//s.w.org' />
@@ -2943,69 +2943,48 @@
           <!-- content of the contect component -->
 
           <style type="text/css">
-              .solva-contact-page { background: #f7f9ff; padding: 100px 0 110px; }
-              .solva-contact-intro { max-width: 680px; margin: 0 auto 58px; text-align: center; }
-              .solva-contact-eyebrow { color: #436dfe; font-size: 13px; font-weight: 700; letter-spacing: 1.4px; text-transform: uppercase; }
-              .solva-contact-intro h1 { color: #292b33; font-size: 42px; line-height: 1.2; margin: 14px 0 18px; }
-              .solva-contact-intro p { color: #646464; font-size: 17px; line-height: 1.8; margin: 0; }
-              .solva-contact-details { padding: 16px 68px 18px 8px; }
-              .solva-contact-details h2, .solva-contact-form h2 { color: #292b33; font-size: 30px; line-height: 1.3; margin: 0 0 16px; }
-              .solva-contact-details > p { color: #646464; font-size: 16px; line-height: 1.8; margin-bottom: 32px; }
-              .solva-contact-card { align-items: center; background: #fff; border-radius: 7px; box-shadow: 0 12px 35px rgba(38,64,143,.08); display: flex; margin: 0 0 16px; padding: 22px 25px; }
-              .solva-contact-card i { background: #edf2ff; border-radius: 50%; color: #436dfe; font-size: 19px; height: 47px; line-height: 47px; margin-right: 18px; text-align: center; width: 47px; }
-              .solva-contact-card small { color: #8b8b8b; display: block; font-size: 12px; font-weight: 700; letter-spacing: .8px; margin-bottom: 3px; text-transform: uppercase; }
-              .solva-contact-card a, .solva-contact-card span { color: #292b33; font-size: 16px; font-weight: 500; }
-              .solva-contact-card a:hover { color: #436dfe; }
-              .solva-contact-form { background: #fff; border-radius: 7px; box-shadow: 0 18px 45px rgba(38,64,143,.12); padding: 49px 48px 30px; }
-              .solva-contact-form h2 span { color: #436dfe; }
-              .solva-contact-form-copy { color: #777; line-height: 1.7; margin: -5px 0 25px; }
-              #cf7-contact-page input:not([type="submit"]), #cf7-contact-page textarea { border: 1px solid #e8e8e8; border-radius: 4px; box-sizing: border-box; color: #646464; font-size: 14px; height: 60px; line-height: 60px; padding: 0 18px; transition: .3s all ease-in-out; width: 100%; }
-              #cf7-contact-page textarea { height: 116px; line-height: 1.6; padding-top: 16px; resize: vertical; }
-              #cf7-contact-page input:not([type="submit"]):focus, #cf7-contact-page textarea:focus { border-color: #436dfe; box-shadow: 0 0 0 3px rgba(67,109,254,.1); outline: none; }
-              #cf7-contact-page .wpcf7-form-control-wrap { display: block; margin-bottom: 16px; }
-              #cf7-contact-page .wpcf7-submit { background: #436dfe; border: 0; border-radius: 8px !important; color: #fff; cursor: pointer; font-size: 14px; height: 60px; line-height: 60px; padding: 0 35px; transition: .3s all ease-in-out; width: 100%; }
-              #cf7-contact-page .wpcf7-submit:hover { background: #2d58ec; }
-              .solva-contact-note { color: #929292; font-size: 12px; line-height: 1.6; margin: 13px 0 0; text-align: center; }
-              @media (max-width: 767px) { .solva-contact-page { padding: 65px 0 70px; } .solva-contact-intro { margin-bottom: 38px; padding: 0 15px; } .solva-contact-intro h1 { font-size: 32px; } .solva-contact-details { padding: 0 15px 38px; } .solva-contact-form { margin: 0 15px; padding: 36px 25px 24px; } }
+              .solva-integrations { background: #f7f9ff; padding: 96px 0 108px; }
+              .solva-integrations-hero { margin: 0 auto 50px; max-width: 720px; text-align: center; }
+              .solva-eyebrow { color: #436dfe; font-size: 13px; font-weight: 700; letter-spacing: 1.3px; text-transform: uppercase; }
+              .solva-integrations h1 { color: #30314f; font-size: 43px; line-height: 1.2; margin: 13px 0 17px; }
+              .solva-integrations-hero p { color: #838383; font-size: 17px; line-height: 1.75; margin: 0; }
+              .solva-product-card { background: #fff; border-radius: 8px; box-shadow: 0 13px 36px rgba(38,64,143,.08); margin: 14px 0; overflow: hidden; transition: .3s ease; }
+              .solva-product-card:hover { box-shadow: 0 20px 42px rgba(38,64,143,.15); transform: translateY(-4px); }
+              .solva-product-preview { background: #eef2fa; height: 184px; overflow: hidden; position: relative; }
+              .solva-product-preview:after { background: linear-gradient(180deg, rgba(255,255,255,0) 50%, rgba(26,37,75,.06)); content: ''; inset: 0; pointer-events: none; position: absolute; }
+              .solva-product-preview img { height: 100%; object-fit: cover; object-position: center 55%; transform: scale(1.12); width: 100%; }
+              .solva-product-preview.lyyti { background: linear-gradient(135deg,#e9efff,#dce7ff); }
+              .solva-product-preview.lyyti:before { background: #fff; border-radius: 5px; box-shadow: 0 13px 25px rgba(44,71,192,.16); content: ''; height: 124px; left: 14%; position: absolute; top: 30px; transform: rotate(-3deg); width: 72%; }
+              .solva-product-preview.lyyti:after { background: linear-gradient(90deg,#436dfe 0 38%,transparent 38% 42%,#e7ebf6 42% 100%); border-radius: 3px; content: ''; height: 84px; left: 21%; opacity: .85; position: absolute; top: 50px; width: 58%; }
+              .solva-product-content { min-height: 210px; padding: 27px 28px 25px; }
+              .solva-product-content h2 { color: #30314f; font-size: 20px; line-height: 1.3; margin: 0 0 12px; }
+              .solva-product-content p { color: #838383; font-size: 15px; line-height: 1.65; margin: 0 0 19px; }
+              .solva-product-link { color: #436dfe; font-size: 14px; font-weight: 700; }
+              .solva-product-link:hover { color: #204ce4; }
+              .solva-integrations-note { color: #929292; font-size: 13px; line-height: 1.6; margin: 32px auto 0; max-width: 700px; text-align: center; }
+              @media (max-width: 767px) { .solva-integrations { padding: 65px 15px 75px; } .solva-integrations h1 { font-size: 32px; } .solva-product-card { margin: 12px 0; } }
           </style>
 
-          <section class="solva-contact-page" aria-labelledby="solva-contact-title">
+          <main class="solva-integrations" aria-labelledby="integrations-title">
               <div class="container">
-                  <div class="solva-contact-intro">
-                      <div class="solva-contact-eyebrow">Contact SolvaCRM</div>
-                      <h1 id="solva-contact-title">Let’s make your business work smarter.</h1>
-                      <p>Whether you need help with your current setup, want to explore SolvaCRM, or have a question for our team, we are here to help.</p>
+                  <div class="solva-integrations-hero">
+                      <div class="solva-eyebrow">Integrations</div>
+                      <h1 id="integrations-title">Extend the way your CRM works.</h1>
+                      <p>Bring important data, documents, events, and customer insight into the workflows your team already uses.</p>
                   </div>
                   <div class="vc_row wpb_row vc_row-fluid">
-                      <div class="wpb_column vc_column_container vc_col-sm-6"><div class="vc_column-inner"><div class="wpb_wrapper solva-contact-details">
-                          <h2>Talk to our team</h2>
-                          <p>Tell us what you need and we will point you in the right direction. Our specialists can help with product questions, onboarding, integrations, and ongoing support.</p>
-                          <div class="solva-contact-card"><i class="icon-envelope-letter" aria-hidden="true"></i><div><small>Email support</small><a href="mailto:support@solvacrm.com">support@solvacrm.com</a></div></div>
-                          <div class="solva-contact-card"><i class="icon-clock" aria-hidden="true"></i><div><small>Support hours</small><span>Monday to Friday, 9:00–18:00</span></div></div>
-                          <div class="solva-contact-card"><i class="icon-bubbles" aria-hidden="true"></i><div><small>What to expect</small><span>A helpful reply from our team within one business day.</span></div></div>
-                      </div></div></div>
-                      <div class="wpb_column vc_column_container vc_col-sm-6"><div class="vc_column-inner"><div class="wpb_wrapper solva-contact-form">
-                          <h2><span>|</span> Do you need help from support?</h2>
-                          <p class="solva-contact-form-copy">Send us a message and let us know how we can help.</p>
-                          <div id="cf7-contact-page" class="sh-cf7 sh-cf7-wpbakery sh-cf7-style1 sh-cf7-layout-default sh-cf7-submit-width-full">
-                              <div role="form" class="formsubmit-form" lang="en-US" dir="ltr">
-                                  <form action="https://formsubmit.co/support@solvacrm.com" method="post" class="wpcf7-form formsubmit-form">
-                                      <div style="display: none;"><input type="hidden" name="_subject" value="New SolvaCRM contact enquiry" /><input type="hidden" name="_captcha" value="false" /></div>
-                                      <div class="sh-cf7-body">
-                                          <p><span class="wpcf7-form-control-wrap company-name"><input type="text" name="company_name" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" required placeholder="Company name" /></span></p>
-                                          <p><span class="wpcf7-form-control-wrap phone-number"><input type="tel" name="phone_number" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" required placeholder="Phone number" /></span></p>
-                                          <p><span class="wpcf7-form-control-wrap email"><input type="email" name="email" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email" required placeholder="E-mail" /></span></p>
-                                          <p><span class="wpcf7-form-control-wrap message"><textarea name="message" class="wpcf7-form-control wpcf7-textarea" placeholder="How can we help?"></textarea></span></p>
-                                          <p><input type="submit" value="Send message" class="wpcf7-form-control wpcf7-submit" /></p>
-                                      </div>
-                                  </form>
-                              </div>
-                          </div>
-                          <p class="solva-contact-note">By submitting this form, you agree that SolvaCRM may contact you about your enquiry.</p>
-                      </div></div></div>
+                      <div class="wpb_column vc_column_container vc_col-sm-4"><div class="vc_column-inner"><article class="solva-product-card"><div class="solva-product-preview"><img src="https://appstore.superoffice.com/Image?imageId=46233&amp;applicationId=411" alt="Map-based customer data interface" /></div><div class="solva-product-content"><h2>Map4You Pro</h2><p>Turn CRM lists into a geographic view for smarter territory coverage, visits, and prospecting.</p><a class="solva-product-link" href="/products/map4you-pro.html">Explore integration <i class="ti-arrow-right"></i></a></div></article></div></div>
+                      <div class="wpb_column vc_column_container vc_col-sm-4"><div class="vc_column-inner"><article class="solva-product-card"><div class="solva-product-preview"><img src="https://appstore.superoffice.com/Image?imageId=56287&amp;applicationId=60" alt="Document conversion interface" /></div><div class="solva-product-content"><h2>PDF Manager</h2><p>Convert and archive CRM documents as PDFs without leaving the records your team works in.</p><a class="solva-product-link" href="/products/pdf-manager.html">Explore integration <i class="ti-arrow-right"></i></a></div></article></div></div>
+                      <div class="wpb_column vc_column_container vc_col-sm-4"><div class="vc_column-inner"><article class="solva-product-card"><div class="solva-product-preview"><img src="https://appstore.superoffice.com/Image?imageId=55596&amp;applicationId=1081" alt="Credit information interface" /></div><div class="solva-product-content"><h2>Risika CRM Connector</h2><p>Give sales teams current credit context and company data when qualifying opportunities.</p><a class="solva-product-link" href="/products/risika-crm-connector.html">Explore integration <i class="ti-arrow-right"></i></a></div></article></div></div>
+                      <div class="wpb_column vc_column_container vc_col-sm-4"><div class="vc_column-inner"><article class="solva-product-card"><div class="solva-product-preview lyyti" aria-label="Event management interface preview"></div><div class="solva-product-content"><h2>Lyyti Event Management</h2><p>Connect event registration and attendance data with the customer records your team relies on.</p><a class="solva-product-link" href="/products/lyyti-event-management.html">Explore integration <i class="ti-arrow-right"></i></a></div></article></div></div>
+                      <div class="wpb_column vc_column_container vc_col-sm-4"><div class="vc_column-inner"><article class="solva-product-card"><div class="solva-product-preview"><img src="https://appstore.superoffice.com/Image?imageId=46224&amp;applicationId=331" alt="Customer feedback dashboard" /></div><div class="solva-product-content"><h2>NPS Feedback</h2><p>Collect feedback at the right moments and turn customer sentiment into timely action.</p><a class="solva-product-link" href="/products/nps-feedback.html">Explore integration <i class="ti-arrow-right"></i></a></div></article></div></div>
+                      <div class="wpb_column vc_column_container vc_col-sm-4"><div class="vc_column-inner"><article class="solva-product-card"><div class="solva-product-preview"><img src="https://appstore.superoffice.com/Image?imageId=46311&amp;applicationId=487" alt="Construction project data interface" /></div><div class="solva-product-content"><h2>Construction Data</h2><p>Bring selected construction opportunities and their contacts into CRM for quicker follow-up.</p><a class="solva-product-link" href="/products/construction-data.html">Explore integration <i class="ti-arrow-right"></i></a></div></article></div></div>
                   </div>
+                  <p class="solva-integrations-note">Each integration is presented here by its practical outcome—without marketplace or supplier branding—so you can focus on what it adds to your workflow.</p>
               </div>
-          </section>
+          </main>
+
+
 
 
 
