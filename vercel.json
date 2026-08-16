@@ -1,0 +1,16 @@
+{
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "redirects": [
+    { "source": "/index.html", "destination": "/", "permanent": true },
+    { "source": "/about-us.html", "destination": "/about-us", "permanent": true },
+    { "source": "/contact.html", "destination": "/contact", "permanent": true },
+    { "source": "/our-products.html", "destination": "/our-products", "permanent": true },
+    { "source": "/products/map4you-pro.html", "destination": "/products/map4you-pro", "permanent": true },
+    { "source": "/products/pdf-manager.html", "destination": "/products/pdf-manager", "permanent": true },
+    { "source": "/products/risika-crm-connector.html", "destination": "/products/risika-crm-connector", "permanent": true },
+    { "source": "/products/lyyti-event-management.html", "destination": "/products/lyyti-event-management", "permanent": true },
+    { "source": "/products/nps-feedback.html", "destination": "/products/nps-feedback", "permanent": true },
+    { "source": "/products/construction-data.html", "destination": "/products/construction-data", "permanent": true }
+  ]
+}
